@@ -1,0 +1,41 @@
+.selectbox {
+	position: relative;
+	margin: 0px 5px 10px 0px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 321px;
+	display: block;
+	text-align: left;
+	cursor: pointer;
+	font-size: 12px;
+	color: #333; }
+	.selectbox ol {
+	  display: none;
+	  position: absolute; 
+	  background: #fff;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	  border: 1px solid #727272; 
+	  border-width: 0 1px 1px 1px;
+	  width: 302px; 
+	  left: 0; 
+	  z-index: 9999; }
+	  .selectbox li {
+	    position: relative; 
+	    padding: 3px 6px; }
+	    .selectbox li:hover {
+	      background: #ccc; }
+	  .selectbox .title {
+	    margin-right: 30px; }
+	.selectbox .current {
+	  position: relative;
+	  width: 290px;
+	  background: #fff;
+	  border: 1px solid #727272;
+	  padding: 5px 6px 6px 6px; }
+	  .selectbox .down-arrow {
+	    position: absolute;
+	    top: 0;
+	    right: 0; }
+	  .selectbox .current .cost {
+	    top: 3px; }
